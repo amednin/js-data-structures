@@ -1,0 +1,21 @@
+{
+  "name": "js-data-structures",
+  "version": "1.0.0",
+  "description": "Custom Data Structures in JS",
+  "main": "index.js",
+  "author": "amed.ibanez@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha 'src/**/**.spec.js' --require @babel/register"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1"
+  }
+}
