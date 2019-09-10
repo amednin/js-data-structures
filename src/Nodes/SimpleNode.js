@@ -4,7 +4,7 @@ export default class Node {
 
   constructor(value) {
     this.value = value;
-    this.next = new Node(null);
+    // this.next = new Node(null);
   }
 
   setValue(value) {

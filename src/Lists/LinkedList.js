@@ -3,7 +3,7 @@ import { Node } from '../Nodes';
 export default class LinkedList {
   constructor(value) {
     this.ini = new Node(null);
-    this.next = null;
+    // this.next = null;
   }
 
   insert(value) {
